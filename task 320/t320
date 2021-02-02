@@ -1,0 +1,24 @@
+k=1l
+=1
+Suml=0
+Sumk=0
+for k in range(1,11):       
+for l in range(1,16):        
+Suml+=(k-l)*(k-l)        
+Sumk+=k*k*k*Suml    
+Suml=   
+print (Sumk)
+#Если попросит любую сумму вынести то надо вводить массив   
+#Suml=[15]
+#S=0
+#M=0
+#Sumk=[10]
+#for k in range(1,11):      
+#  for l in range(1,16):    
+#    S+=(k-l)*(k-l)    
+#    Suml.append(S)   
+#     print("Suml[",l,"]=\",Suml[l])    
+#S=0 
+#   M+=k*k*k*Suml[l] 
+#   Sumk.append(M) 
+#print("Sumk[",k,"]=",Sumk[k])"
